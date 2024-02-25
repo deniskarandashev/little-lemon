@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="flex-row wrap">
+        <footer className="flex-row wrap container">
             <section >
                 <h3>Contacts</h3>
                 <ul>
