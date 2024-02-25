@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <footer>
-            <section>
+        <footer className="flex-row wrap">
+            <section >
                 <h3>Contacts</h3>
                 <ul>
                     <li>Address: Lorem ipsum, 123</li>

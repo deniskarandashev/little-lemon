@@ -3,9 +3,9 @@ import Logo from '../assets/img/Logo.svg'
 
 export default function Header() {
     return (  
-        <header>
-            <img src={Logo} alt='logo'></img>
-            <Nav></Nav>
+        <header className="flex-row">
+            <img className='header-logo' src={Logo} alt='logo'></img>
+            <Nav className='nav-list-container'></Nav>
         </header>
     )
 }
